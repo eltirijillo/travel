@@ -2,12 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
+
 
 .navBar{
     height: 10vh;
     width: 80vw;
-    background-color: #3377a3;
+    background: transparent;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -26,10 +28,19 @@
 }
 
 .home{
-height: 90vh;
-width: 80vw;
-background-color: red;
-margin: auto;
+min-height: 100vh;
+background-size: cover;
+background-position: center;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background: url(img/dragon-ball-significan-nombres-personajes-1858451.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
 }
     
+
 
